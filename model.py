@@ -181,6 +181,9 @@ if __name__ == '__main__':
     jobs = full['Job'].unique()
     edus = full['Degree'].unique()
 
+    for j in jobs:
+        print(j)
+
 
     job = getJob()
     edu = getEdu(1)

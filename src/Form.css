@@ -47,12 +47,12 @@ form input:focus {
 }
 
 form button {
-   background-color: #3456FF;
-   border: 1px solid #3456FF;
-   border-radius: 5px;
+   background-color: darkblue;
+   border: 1px solid darkblue;
+   border-radius: 25px;
    color: #fff;
    cursor: pointer;
-   font-size: 15px;
+   font-size: 24px;
    height: 40px;
    margin-top: 5px;
    outline: none;
@@ -84,3 +84,26 @@ form span:hover {
 form .result {
    font-size: 16px;
 }
+
+/* Slider Track */
+form input[type="range"] {
+  width: 100%;
+  height: 18px;
+  background-color: #282c34;
+  border-radius: 90px;
+  appearance: none;
+  outline: crimson;
+  margin-bottom: 20px;
+}
+
+/* Slider Thumb */
+form input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 100%;
+  background: darkblue;
+  cursor: pointer;
+}
+
