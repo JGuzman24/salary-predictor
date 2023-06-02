@@ -4,18 +4,18 @@ from flask import Flask, request, url_for, redirect, render_template, jsonify
 import pandas as pd
 import pickle
 import babel.numbers
-from flask_cors import CORS
+#from flask_cors import CORS
 from sklearn import metrics
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
 
 lm = LinearRegression()
 
 
-@app.route('/', methods=['POST', 'GET'])
+@app.route('/')
 def use_template():
     return render_template("index.html")
 
