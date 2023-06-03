@@ -46,7 +46,7 @@ function Form() {
 
         setLoading(true)
 
-        fetch('https://salary-prediction-app.herokuapp.com/predict', {
+        fetch('https://tech-salary-predict.herokuapp.com/predict', {
             method: 'POST',
             mode: 'cors',
             body: form_data,
