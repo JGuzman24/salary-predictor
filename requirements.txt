@@ -11,5 +11,4 @@ matplotlib>=1.4.3
 pandas>=0.19
 Flask-Cors==3.0.10
 Babel~=2.12.1
-sklearn~=0.0.post5
 seaborn~=0.12
