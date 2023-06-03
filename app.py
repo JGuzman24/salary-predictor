@@ -17,7 +17,7 @@ lm = LinearRegression()
 
 @app.route('/')
 def use_template():
-    return render_template("index.html")
+    return render_template("result.html")
 
 @app.route('/predict', methods=['POST', 'GET'])
 def predict():
