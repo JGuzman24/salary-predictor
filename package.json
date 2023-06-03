@@ -10,6 +10,8 @@
     "react-select": "^5.7.3"
   },
   "scripts": {
+    "install-client":"cd frontend && npm install",
+    "heroku-postbuild": "npm run install-client && npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "eject": "react-scripts eject"
