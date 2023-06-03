@@ -15,7 +15,7 @@ CORS(app)
 lm = LinearRegression()
 
 
-@app.route('/', methods=['GET'])
+@app.route('/')
 def use_template():
     return render_template("index.html")
 
