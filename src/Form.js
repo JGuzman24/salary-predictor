@@ -102,7 +102,6 @@ function Form() {
 
             <button type="submit" disabled={loading}>Submit Form</button>
 
-            {result && <span onClick={handleClear}>Clear Prediction</span> }
             {result && <div dangerouslySetInnerHTML={{__html: result}} className="result"/> }
         </form>
 
